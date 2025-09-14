@@ -124,9 +124,7 @@ export default function TermsPage() {
               <CardTitle>{t.terms.law.title}</CardTitle>
             </CardHeader>
             <CardContent className="space-y-3">
-              <p className="text-sm">{t.terms.law.applicable}</p>
-              <p className="text-sm">{t.terms.law.jurisdiction}</p>
-              <p className="text-sm">{t.terms.law.severability}</p>
+              <p className="text-sm">{t.terms.law.content}</p>
             </CardContent>
           </Card>
         </div>
