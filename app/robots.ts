@@ -1,0 +1,13 @@
+import { MetadataRoute } from 'next'
+
+export default function robots(): MetadataRoute.Robots {
+  const baseUrl = 'https://max-mustermann-musik.de' // Замените на ваш реальный домен
+
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: `${baseUrl}/sitemap.xml`,
+  }
+}
