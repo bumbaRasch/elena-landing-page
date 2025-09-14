@@ -48,9 +48,11 @@ export function Header() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <ModeToggle />
-            <Button className="bg-gray-900 hover:bg-gray-800 text-white dark:bg-gray-100 dark:hover:bg-gray-200 dark:text-gray-900">
-              {t.navigation.contact}
-            </Button>
+            <a href="#contact">
+              <Button className="bg-gray-900 hover:bg-gray-800 text-white dark:bg-gray-100 dark:hover:bg-gray-200 dark:text-gray-900 cursor-pointer">
+                {t.navigation.contact}
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
