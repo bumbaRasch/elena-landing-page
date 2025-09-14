@@ -22,31 +22,31 @@ export function GallerySection() {
   const galleryImages = [
     {
       id: 1,
-      src: "/image/photos/example_1-photo.webp",
+      src: "/images/photos/example_1-photo.webp",
       alt: "Musikstudio mit Flügel",
       title: t.gallery.images.studio
     },
     {
       id: 2,
-      src: "/image/photos/example_2-photo.webp",
+      src: "/images/photos/example_2-photo.webp",
       alt: "Musikinstrumente",
       title: t.gallery.images.instruments
     },
     {
       id: 3,
-      src: "/image/photos/example_3-photo.webp",
+      src: "/images/photos/example_3-photo.webp",
       alt: "Klavierunterricht",
       title: t.gallery.images.lessons
     },
     {
       id: 4,
-      src: "/image/photos/example_4-photo.webp",
+      src: "/images/photos/example_4-photo.webp",
       alt: "Musiktheorie",
       title: t.gallery.images.theory
     },
     {
       id: 5,
-      src: "/image/photos/example_5-photo.webp",
+      src: "/images/photos/example_5-photo.webp",
       alt: "Konzertsaal",
       title: t.gallery.images.concerts
     }
