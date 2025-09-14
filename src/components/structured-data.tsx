@@ -11,7 +11,7 @@ export function StructuredData() {
         "url": "https://max-mustermann-musik.de",
         "image": {
           "@type": "ImageObject",
-          "url": "https://max-mustermann-musik.de/image/example-about.png"
+          "url": "https://max-mustermann-musik.de/images/example-about.webp"
         },
         "address": {
           "@type": "PostalAddress",
