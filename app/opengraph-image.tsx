@@ -1,5 +1,8 @@
 import { ImageResponse } from 'next/og'
 
+// Route configuration for static export
+export const dynamic = 'force-static'
+
 // Image metadata
 export const alt = 'Max Mustermann - Professioneller Musikunterricht'
 export const size = {
