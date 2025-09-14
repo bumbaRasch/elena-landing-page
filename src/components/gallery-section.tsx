@@ -69,11 +69,11 @@ export function GallerySection() {
         <div className="max-w-4xl mx-auto mb-12 px-4 md:px-0" data-aos="zoom-in" data-aos-delay="200">
           <Carousel
             plugins={[plugin.current]}
-            className="w-full"
+            className="w-full overflow-hidden"
             onMouseEnter={plugin.current.stop}
             onMouseLeave={plugin.current.reset}
           >
-            <CarouselContent className="-ml-2 md:-ml-4">
+            <CarouselContent className="-ml-1 md:-ml-4">
               {galleryImages.map((image) => (
                 <CarouselItem key={image.id} className="pl-2 md:pl-4">
                   <div className="relative aspect-[16/10] overflow-hidden rounded-lg shadow-xl">
