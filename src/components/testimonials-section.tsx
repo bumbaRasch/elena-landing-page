@@ -56,7 +56,7 @@ export function TestimonialsSection() {
             className="w-full"
           >
             <CarouselContent className="-ml-2 md:-ml-4">
-              {t.testimonials.reviews.map((testimonial: any, index: number) => (
+              {t.testimonials.reviews.map((testimonial: {text: string; name: string; age: string; instrument: string}, index: number) => (
                 <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                   <Card className="h-full hover:shadow-lg transition-shadow duration-300">
                     <CardContent className="p-6 flex flex-col h-full">
@@ -77,7 +77,7 @@ export function TestimonialsSection() {
 
                       {/* Testimonial Text */}
                       <p className="text-gray-600 dark:text-gray-300 mb-6 flex-grow leading-relaxed text-sm">
-                        "{testimonial.text}"
+                        &ldquo;{testimonial.text}&rdquo;
                       </p>
 
                       {/* Author Info */}

@@ -2,7 +2,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Separator } from "@/components/ui/separator"
 import { useTranslation } from "@/hooks/use-translation"
 import { ArrowLeft, Shield, User, Database, Settings, Mail } from "lucide-react"
 import Link from "next/link"
