@@ -24,7 +24,7 @@ export function AboutSection() {
           <div className="flex justify-center" data-aos="fade-right">
             <div className="w-full max-w-lg aspect-[4/5] rounded-2xl shadow-lg overflow-hidden">
               <OptimizedImage
-                src="./image/example-about.webp"
+                src="/image/example-about.webp"
                 alt="Max Mustermann - Musiklehrer"
                 width={500}
                 height={625}
