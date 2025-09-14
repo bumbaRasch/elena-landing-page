@@ -39,7 +39,7 @@ export function HeroSection() {
             <div className="relative">
               <div className="w-full max-w-md aspect-[4/5] rounded-2xl shadow-lg overflow-hidden">
                 <OptimizedImage
-                  src="/image/example-hero.webp"
+                  src="./image/example-hero.webp"
                   alt="Musikstudio mit Klavier und Gitarre"
                   width={400}
                   height={500}
