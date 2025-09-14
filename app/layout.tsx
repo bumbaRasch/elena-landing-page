@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: "Individueller Musikunterricht für Klavier, Gitarre, Gesang und Musiktheorie mit erfahrenem Lehrer. Über 10 Jahre Erfahrung.",
     images: [
       {
-        url: "/image/example-hero.png",
+        url: "./images/example-hero.webp",
         width: 1200,
         height: 630,
         alt: "Max Mustermann - Musiklehrer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Max Mustermann - Professioneller Musikunterricht in Musterstadt",
     description: "Individueller Musikunterricht für Klavier, Gitarre, Gesang und Musiktheorie mit erfahrenem Lehrer.",
-    images: ["/image/example-hero.png"],
+    images: ["./image/example-hero.webp"],
   },
   robots: {
     index: true,
